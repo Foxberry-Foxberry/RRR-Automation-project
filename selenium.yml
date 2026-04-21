@@ -10,6 +10,8 @@ on:
     branches:
       - main
 
+  workflow_dispatch:   # 👈 enables manual run
+
 jobs:
   test:
     runs-on: ubuntu-latest
