@@ -5,10 +5,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.gardenticketing.base.BaseAdminTest;
 import com.gardenticketing.base.BaseTestclass;
 import com.gardenticketing.pages.admin.BookingReport;
 
-public class BookingReportTC extends BaseTestclass {
+public class BookingReportTC extends BaseAdminTest {
 
 	private BookingReport Bookinghistory;
 	

@@ -3,10 +3,12 @@ package com.gardenticketing.tests.admin;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import com.gardenticketing.base.BaseAdminTest;
 import com.gardenticketing.base.BaseTestclass;
 import com.gardenticketing.pages.admin.DashboardPage;
 
-public class DashboardTest extends BaseTestclass {
+public class DashboardTest extends BaseAdminTest {
 
     private DashboardPage dashboard;
 //    public LoginPage login;

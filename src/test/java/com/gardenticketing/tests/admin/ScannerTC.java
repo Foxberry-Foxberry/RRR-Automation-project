@@ -3,10 +3,11 @@ package com.gardenticketing.tests.admin;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.gardenticketing.base.BaseAdminTest;
 import com.gardenticketing.base.BaseTestclass;
 import com.gardenticketing.pages.admin.ScannerModule;
 
-public class ScannerTC extends BaseTestclass {
+public class ScannerTC extends BaseAdminTest {
 
     private ScannerModule scannerModule;
 
