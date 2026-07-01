@@ -1,10 +1,12 @@
 package com.gardenticketing.tests.admin;
 
 import org.testng.annotations.Test;
+
+import com.gardenticketing.base.BaseAdminTest;
 import com.gardenticketing.base.BaseTestclass;
 import com.gardenticketing.pages.admin.Addgardens;
 
-public class addgardenTC extends BaseTestclass {
+public class addgardenTC extends BaseAdminTest {
 
 
     @Test(priority = 1)
@@ -108,7 +110,7 @@ public class addgardenTC extends BaseTestclass {
 
         // 4. Update required fields only
        garden.updateMaxCapacity();
-        garden.enterMaxCapacity("600");   // Update Capacit
+        garden.enterMaxCapacity("600");   // Update Capacity
         garden.updatePhotographyPrice();
         garden.enterPhotographyPrice("750");   // Update Photography Price
         garden.updateVideographyPrice();

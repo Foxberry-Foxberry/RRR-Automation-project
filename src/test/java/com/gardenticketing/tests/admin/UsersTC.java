@@ -3,10 +3,12 @@ package com.gardenticketing.tests.admin;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import com.gardenticketing.base.BaseAdminTest;
 import com.gardenticketing.base.BaseTestclass;
 import com.gardenticketing.pages.admin.Users;
 
-public class UsersTC extends BaseTestclass {
+public class UsersTC extends BaseAdminTest {
 	
 	public Users addusers;
 	

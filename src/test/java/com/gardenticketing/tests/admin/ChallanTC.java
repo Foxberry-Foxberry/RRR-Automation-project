@@ -6,10 +6,11 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.gardenticketing.base.BaseAdminTest;
 import com.gardenticketing.base.BaseTestclass;
 import com.gardenticketing.pages.admin.ChallanPage;
 
-public class ChallanTC extends BaseTestclass {
+public class ChallanTC extends BaseAdminTest {
 //WebDriver driver;
 private ChallanPage challanpagetc;
 

@@ -1,7 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
 
-    <test thread-count="1" name="Test">
+<suite name="GardenTicketingSuite">
+
+     Admin Module 
+
+    <test name="Admin Module">
+
         <classes>
 
             <class name="com.gardenticketing.tests.admin.LoginPageTC"/>
@@ -12,6 +16,22 @@
             <class name="com.gardenticketing.tests.admin.UsersTC"/>
 
         </classes>
+
+    </test>
+
+     Citizen Module 
+
+    <test name="Citizen Module">
+
+        <classes>
+
+         
+            <class name="com.gardenticketing.tests.Citizen.BookticketTestcases"/>
+            <class name="com.gardenticketing.tests.Citizen.TicketsPageTC"/>
+            <class name="com.gardenticketing.tests.Citizen.TermAndConditionpageTC"/>
+
+        </classes>
+
     </test>
 
 </suite>
