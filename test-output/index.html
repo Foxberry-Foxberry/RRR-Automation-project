@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-GardenTicketingSuite" class="navigator-link">
-              <span class="suite-name border-passed">GardenTicketingSuite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-GardenTicketingSuite" class="navigator-link ">
-                    <span>C:\Users\Foxberry\Foxberry Project\gardenticketing-Automation\testng.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Foxberry\Foxberry Project\RRR_Project_Automation\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-GardenTicketingSuite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-GardenTicketingSuite" class="navigator-link ">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-GardenTicketingSuite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-GardenTicketingSuite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-GardenTicketingSuite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-GardenTicketingSuite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,176 +92,60 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">32 methods,   32 passed</span>
+                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rrr_citizen.test.CollectionHistoryTest" class="method navigator-link" hash-for-method="testFilterFromTodayOnly">testFilterFromTodayOnly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.rrr_citizen.test.LoginTestclass" class="method navigator-link" hash-for-method="verifyCitizenLogin">verifyCitizenLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-GardenTicketingSuite" class="hide-methods passed suite-GardenTicketingSuite"> (hide)</a> <!-- hide-methods passed suite-GardenTicketingSuite -->
-                      <a href="#" panel-name="suite-GardenTicketingSuite" class="show-methods passed suite-GardenTicketingSuite"> (show)</a> <!-- show-methods passed suite-GardenTicketingSuite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-GardenTicketingSuite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.UsersTC" class="method navigator-link" hash-for-method="Check_By_Selecting_pagination_fromDropdown">Check_By_Selecting_pagination_fromDropdown</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.rrr_citizen.test.CollectionHistoryTest" class="method navigator-link" hash-for-method="testFilterFromToToday">testFilterFromToToday</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="Check_by_Selecting_FromDate">Check_by_Selecting_FromDate</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.rrr_citizen.test.AddSurveyFormTC" class="method navigator-link" hash-for-method="verifyRRRSurveySubmittedSuccesfully">verifyRRRSurveySubmittedSuccesfully</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="Check_by_Selecting_ToDate">Check_by_Selecting_ToDate</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.rrr_citizen.test.AddSurveyFormTC" class="method navigator-link" hash-for-method="verify_Collection_FilterApplied_Succesfully">verify_Collection_FilterApplied_Succesfully</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.UsersTC" class="method navigator-link" hash-for-method="Verified_New_user_addedSuccesfully">Verified_New_user_addedSuccesfully</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.rrr_citizen.test.AddSurveyFormTC" class="method navigator-link" hash-for-method="verify_Collection_details_shwoingonthetable">verify_Collection_details_shwoingonthetable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="Verify_the_all_Event_pass_tickets_showing_Dashboard">Verify_the_all_Event_pass_tickets_showing_Dashboard</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.rrr_citizen.test.AddSurveyFormTC" class="method navigator-link" hash-for-method="verify_Submitted_SurveyForm_DisplayedSuccesfully">verify_Submitted_SurveyForm_DisplayedSuccesfully</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="Verifythe_all_Creatorpass_tickets_showing_Dashboard">Verifythe_all_Creatorpass_tickets_showing_Dashboard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="Verifythe_all_Genralpass_tickets_showing">Verifythe_all_Genralpass_tickets_showing</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="verifyByclickingOnBookingReport">verifyByclickingOnBookingReport</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.ScannerTC" class="method navigator-link" hash-for-method="verifyCameraOFFButton">verifyCameraOFFButton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.ScannerTC" class="method navigator-link" hash-for-method="verifyCameraONButton">verifyCameraONButton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.Citizen.BookticketTestcases" class="method navigator-link" hash-for-method="verifyCreatorPassPhotographyBookingAndUPIPayment">verifyCreatorPassPhotographyBookingAndUPIPayment</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.Citizen.BookticketTestcases" class="method navigator-link" hash-for-method="verifyCreatorPassVideographyBookingAndUPIPayment">verifyCreatorPassVideographyBookingAndUPIPayment</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.Citizen.BookticketTestcases" class="method navigator-link" hash-for-method="verifyGenralTicketBookingAndUPIPayment">verifyGenralTicketBookingAndUPIPayment</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.ScannerTC" class="method navigator-link" hash-for-method="verifyOpenProfile">verifyOpenProfile</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.DashboardTest" class="method navigator-link" hash-for-method="verifyPieGraph">verifyPieGraph</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.ScannerTC" class="method navigator-link" hash-for-method="verifyProfileBackNavigation">verifyProfileBackNavigation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.ScannerTC" class="method navigator-link" hash-for-method="verifyScannerButtonClickable">verifyScannerButtonClickable</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.Citizen.TermAndConditionpageTC" class="method navigator-link" hash-for-method="verifyTermAndConditionPage">verifyTermAndConditionPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.Citizen.TicketsPageTC" class="method navigator-link" hash-for-method="verifyTicketDownloadedSuccessfully">verifyTicketDownloadedSuccessfully</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.DashboardTest" class="method navigator-link" hash-for-method="verifyTotalCollectionCard">verifyTotalCollectionCard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.DashboardTest" class="method navigator-link" hash-for-method="verifyTotalGardensCard">verifyTotalGardensCard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.DashboardTest" class="method navigator-link" hash-for-method="verifyTotalTicketsCard">verifyTotalTicketsCard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.DashboardTest" class="method navigator-link" hash-for-method="verifyTotalUsersCard">verifyTotalUsersCard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.LoginPageTC" class="method navigator-link" hash-for-method="verifyUserCanLoginWithValidOTP">verifyUserCanLoginWithValidOTP</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.addgardenTC" class="method navigator-link" hash-for-method="verify_Update_Garden_Details">verify_Update_Garden_Details</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.UsersTC" class="method navigator-link" hash-for-method="verify_User_deleted_Successfully">verify_User_deleted_Successfully</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="verify_datewise_datashowingOn_table">verify_datewise_datashowingOn_table</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="verify_filterdata_reseted_afterClickedOn_Reset">verify_filterdata_reseted_afterClickedOn_Reset</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.addgardenTC" class="method navigator-link" hash-for-method="verify_lastGarden_is_deleted_successfully">verify_lastGarden_is_deleted_successfully</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.addgardenTC" class="method navigator-link" hash-for-method="verify_theNew_garden_added_Successfully">verify_theNew_garden_added_Successfully</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="verify_the_Usercan_View_Ticket_succesfully_And_Cancel_ticket_icon">verify_the_Usercan_View_Ticket_succesfully_And_Cancel_ticket_icon</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GardenTicketingSuite" title="com.gardenticketing.tests.admin.BookingReportTC" class="method navigator-link" hash-for-method="verify_the_garden_ticketExported_succesfully_ByclickonExportfunctionaity">verify_the_garden_ticketExported_succesfully_ByclickonExportfunctionaity</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-GardenTicketingSuite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -272,873 +156,322 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-GardenTicketingSuite" class="panel GardenTicketingSuite">
-          <div class="suite-GardenTicketingSuite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gardenticketing.tests.admin.UsersTC</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.rrr_citizen.test.CollectionHistoryTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Check_By_Selecting_pagination_fromDropdown">
-                  </a> <!-- Check_By_Selecting_pagination_fromDropdown -->
-                  <span class="method-name">Check_By_Selecting_pagination_fromDropdown</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verified_New_user_addedSuccesfully">
-                  </a> <!-- Verified_New_user_addedSuccesfully -->
-                  <span class="method-name">Verified_New_user_addedSuccesfully</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_User_deleted_Successfully">
-                  </a> <!-- verify_User_deleted_Successfully -->
-                  <span class="method-name">verify_User_deleted_Successfully</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GardenTicketingSuite-class-passed -->
-          <div class="suite-GardenTicketingSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gardenticketing.tests.Citizen.TermAndConditionpageTC</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTermAndConditionPage">
-                  </a> <!-- verifyTermAndConditionPage -->
-                  <span class="method-name">verifyTermAndConditionPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GardenTicketingSuite-class-passed -->
-          <div class="suite-GardenTicketingSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gardenticketing.tests.admin.BookingReportTC</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Check_by_Selecting_FromDate">
-                  </a> <!-- Check_by_Selecting_FromDate -->
-                  <span class="method-name">Check_by_Selecting_FromDate</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Check_by_Selecting_ToDate">
-                  </a> <!-- Check_by_Selecting_ToDate -->
-                  <span class="method-name">Check_by_Selecting_ToDate</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_the_all_Event_pass_tickets_showing_Dashboard">
-                  </a> <!-- Verify_the_all_Event_pass_tickets_showing_Dashboard -->
-                  <span class="method-name">Verify_the_all_Event_pass_tickets_showing_Dashboard</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verifythe_all_Creatorpass_tickets_showing_Dashboard">
-                  </a> <!-- Verifythe_all_Creatorpass_tickets_showing_Dashboard -->
-                  <span class="method-name">Verifythe_all_Creatorpass_tickets_showing_Dashboard</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verifythe_all_Genralpass_tickets_showing">
-                  </a> <!-- Verifythe_all_Genralpass_tickets_showing -->
-                  <span class="method-name">Verifythe_all_Genralpass_tickets_showing</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyByclickingOnBookingReport">
-                  </a> <!-- verifyByclickingOnBookingReport -->
-                  <span class="method-name">verifyByclickingOnBookingReport</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_datewise_datashowingOn_table">
-                  </a> <!-- verify_datewise_datashowingOn_table -->
-                  <span class="method-name">verify_datewise_datashowingOn_table</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_filterdata_reseted_afterClickedOn_Reset">
-                  </a> <!-- verify_filterdata_reseted_afterClickedOn_Reset -->
-                  <span class="method-name">verify_filterdata_reseted_afterClickedOn_Reset</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_the_Usercan_View_Ticket_succesfully_And_Cancel_ticket_icon">
-                  </a> <!-- verify_the_Usercan_View_Ticket_succesfully_And_Cancel_ticket_icon -->
-                  <span class="method-name">verify_the_Usercan_View_Ticket_succesfully_And_Cancel_ticket_icon</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_the_garden_ticketExported_succesfully_ByclickonExportfunctionaity">
-                  </a> <!-- verify_the_garden_ticketExported_succesfully_ByclickonExportfunctionaity -->
-                  <span class="method-name">verify_the_garden_ticketExported_succesfully_ByclickonExportfunctionaity</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GardenTicketingSuite-class-passed -->
-          <div class="suite-GardenTicketingSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gardenticketing.tests.Citizen.BookticketTestcases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCreatorPassPhotographyBookingAndUPIPayment">
-                  </a> <!-- verifyCreatorPassPhotographyBookingAndUPIPayment -->
-                  <span class="method-name">verifyCreatorPassPhotographyBookingAndUPIPayment</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCreatorPassVideographyBookingAndUPIPayment">
-                  </a> <!-- verifyCreatorPassVideographyBookingAndUPIPayment -->
-                  <span class="method-name">verifyCreatorPassVideographyBookingAndUPIPayment</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyGenralTicketBookingAndUPIPayment">
-                  </a> <!-- verifyGenralTicketBookingAndUPIPayment -->
-                  <span class="method-name">verifyGenralTicketBookingAndUPIPayment</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GardenTicketingSuite-class-passed -->
-          <div class="suite-GardenTicketingSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gardenticketing.tests.admin.LoginPageTC</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyUserCanLoginWithValidOTP">
-                  </a> <!-- verifyUserCanLoginWithValidOTP -->
-                  <span class="method-name">verifyUserCanLoginWithValidOTP</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GardenTicketingSuite-class-passed -->
-          <div class="suite-GardenTicketingSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gardenticketing.tests.admin.addgardenTC</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_Update_Garden_Details">
-                  </a> <!-- verify_Update_Garden_Details -->
-                  <span class="method-name">verify_Update_Garden_Details</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_lastGarden_is_deleted_successfully">
-                  </a> <!-- verify_lastGarden_is_deleted_successfully -->
-                  <span class="method-name">verify_lastGarden_is_deleted_successfully</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verify_theNew_garden_added_Successfully">
-                  </a> <!-- verify_theNew_garden_added_Successfully -->
-                  <span class="method-name">verify_theNew_garden_added_Successfully</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GardenTicketingSuite-class-passed -->
-          <div class="suite-GardenTicketingSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gardenticketing.tests.admin.ScannerTC</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCameraOFFButton">
-                  </a> <!-- verifyCameraOFFButton -->
-                  <span class="method-name">verifyCameraOFFButton</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCameraONButton">
-                  </a> <!-- verifyCameraONButton -->
-                  <span class="method-name">verifyCameraONButton</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyOpenProfile">
-                  </a> <!-- verifyOpenProfile -->
-                  <span class="method-name">verifyOpenProfile</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyProfileBackNavigation">
-                  </a> <!-- verifyProfileBackNavigation -->
-                  <span class="method-name">verifyProfileBackNavigation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyScannerButtonClickable">
-                  </a> <!-- verifyScannerButtonClickable -->
-                  <span class="method-name">verifyScannerButtonClickable</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GardenTicketingSuite-class-passed -->
-          <div class="suite-GardenTicketingSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gardenticketing.tests.admin.DashboardTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPieGraph">
-                  </a> <!-- verifyPieGraph -->
-                  <span class="method-name">verifyPieGraph</span>
+                  <a name="testFilterFromTodayOnly">
+                  </a> <!-- testFilterFromTodayOnly -->
+                  <span class="method-name">testFilterFromTodayOnly</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[.//span[normalize-space()=&apos;Filters&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.64 (506c834eccea..., userDataDir: C:\Users\Foxberry\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62166}, goog:processID: 22048, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62166/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 981ce02f93af70fd157178bf13105106
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.rrr.page.citizen.CollectionHistoryPage.clickCollectionFilterButton(CollectionHistoryPage.java:115)
+	at com.rrr_citizen.test.CollectionHistoryTest.testFilterFromTodayOnly(CollectionHistoryTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                   <em>
-(Verify Pie Graph visibility and click)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTotalCollectionCard">
-                  </a> <!-- verifyTotalCollectionCard -->
-                  <span class="method-name">verifyTotalCollectionCard</span>
-                  <em>
-(Verify Total Collection card count and navigation)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTotalGardensCard">
-                  </a> <!-- verifyTotalGardensCard -->
-                  <span class="method-name">verifyTotalGardensCard</span>
-                  <em>
-(Verify Total Gardens card count and navigation)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTotalTicketsCard">
-                  </a> <!-- verifyTotalTicketsCard -->
-                  <span class="method-name">verifyTotalTicketsCard</span>
-                  <em>
-(Verify Total Tickets card count and navigation)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTotalUsersCard">
-                  </a> <!-- verifyTotalUsersCard -->
-                  <span class="method-name">verifyTotalUsersCard</span>
-                  <em>
-(Verify Total Users card count and navigation)                  </em>
+(Filter collections by From=Today only and verify results)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GardenTicketingSuite-class-passed -->
-          <div class="suite-GardenTicketingSuite-class-passed">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.gardenticketing.tests.Citizen.TicketsPageTC</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.rrr_citizen.test.LoginTestclass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyTicketDownloadedSuccessfully">
-                  </a> <!-- verifyTicketDownloadedSuccessfully -->
-                  <span class="method-name">verifyTicketDownloadedSuccessfully</span>
+                  <a name="verifyCitizenLogin">
+                  </a> <!-- verifyCitizenLogin -->
+                  <span class="method-name">verifyCitizenLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h6[text()=&apos;Toilet Cleaning Survey&apos;]&quot;}
+  (Session info: chrome=152.0.7977.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4fe64fe0afc6f46e0791753200bc79cd, findElement {using=xpath, value=//h6[text()=&apos;Toilet Cleaning Survey&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.64 (506c834eccea..., userDataDir: C:\Users\Foxberry\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62918}, goog:processID: 13036, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62918/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fe64fe0afc6f46e0791753200bc79cd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at com.rrr.page.citizen.LoginPage.isToiletCleaningSurveyDisplayed(LoginPage.java:51)
+	at com.rrr_citizen.test.LoginTestclass.verifyCitizenLogin(LoginTestclass.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-GardenTicketingSuite-class-passed -->
-        </div> <!-- panel GardenTicketingSuite -->
-        <div panel-name="test-xml-GardenTicketingSuite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rrr_citizen.test.CollectionHistoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterFromToToday">
+                  </a> <!-- testFilterFromToToday -->
+                  <span class="method-name">testFilterFromToToday</span>
+                  <em>
+(Filter collections by From=Today and To=Today and verify results)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rrr_citizen.test.AddSurveyFormTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRRRSurveySubmittedSuccesfully">
+                  </a> <!-- verifyRRRSurveySubmittedSuccesfully -->
+                  <span class="method-name">verifyRRRSurveySubmittedSuccesfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Collection_FilterApplied_Succesfully">
+                  </a> <!-- verify_Collection_FilterApplied_Succesfully -->
+                  <span class="method-name">verify_Collection_FilterApplied_Succesfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Collection_details_shwoingonthetable">
+                  </a> <!-- verify_Collection_details_shwoingonthetable -->
+                  <span class="method-name">verify_Collection_details_shwoingonthetable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Submitted_SurveyForm_DisplayedSuccesfully">
+                  </a> <!-- verify_Submitted_SurveyForm_DisplayedSuccesfully -->
+                  <span class="method-name">verify_Submitted_SurveyForm_DisplayedSuccesfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Foxberry\Foxberry Project\gardenticketing-Automation\testng.xml</span>
+            <span class="header-content">C:\Users\Foxberry\Foxberry Project\RRR_Project_Automation\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;GardenTicketingSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Admin Module&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.gardenticketing.tests.admin.LoginPageTC&quot;/&gt;
-      &lt;class name=&quot;com.gardenticketing.tests.admin.DashboardTest&quot;/&gt;
-      &lt;class name=&quot;com.gardenticketing.tests.admin.addgardenTC&quot;/&gt;
-      &lt;class name=&quot;com.gardenticketing.tests.admin.BookingReportTC&quot;/&gt;
-      &lt;class name=&quot;com.gardenticketing.tests.admin.ScannerTC&quot;/&gt;
-      &lt;class name=&quot;com.gardenticketing.tests.admin.UsersTC&quot;/&gt;
+      &lt;class name=&quot;com.rrr_citizen.test.LoginTestclass&quot;/&gt;
+      &lt;class name=&quot;com.rrr_citizen.test.AddSurveyFormTC&quot;/&gt;
+      &lt;class name=&quot;com.rrr_citizen.test.CollectionHistoryTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Admin Module --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Citizen Module&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.gardenticketing.tests.Citizen.BookticketTestcases&quot;/&gt;
-      &lt;class name=&quot;com.gardenticketing.tests.Citizen.TicketsPageTC&quot;/&gt;
-      &lt;class name=&quot;com.gardenticketing.tests.Citizen.TermAndConditionpageTC&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Citizen Module --&gt;
-&lt;/suite&gt; &lt;!-- GardenTicketingSuite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-GardenTicketingSuite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for GardenTicketingSuite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Admin Module (6 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Citizen Module (3 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-GardenTicketingSuite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for GardenTicketingSuite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-GardenTicketingSuite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for GardenTicketingSuite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_GardenTicketingSuite');
-function tableData_GardenTicketingSuite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(32);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_theNew_garden_added_Successfully')
-data.setCell(0, 2, 'com.gardenticketing.tests.admin.addgardenTC')
-data.setCell(0, 3, 32059);
+data.setCell(0, 1, 'testFilterFromTodayOnly')
+data.setCell(0, 2, 'com.rrr_citizen.test.CollectionHistoryTest')
+data.setCell(0, 3, 46165);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Verified_New_user_addedSuccesfully')
-data.setCell(1, 2, 'com.gardenticketing.tests.admin.UsersTC')
-data.setCell(1, 3, 14759);
+data.setCell(1, 1, 'verify_Collection_FilterApplied_Succesfully')
+data.setCell(1, 2, 'com.rrr_citizen.test.AddSurveyFormTC')
+data.setCell(1, 3, 18403);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyGenralTicketBookingAndUPIPayment')
-data.setCell(2, 2, 'com.gardenticketing.tests.Citizen.BookticketTestcases')
-data.setCell(2, 3, 12177);
+data.setCell(2, 1, 'testFilterFromToToday')
+data.setCell(2, 2, 'com.rrr_citizen.test.CollectionHistoryTest')
+data.setCell(2, 3, 18253);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyCreatorPassVideographyBookingAndUPIPayment')
-data.setCell(3, 2, 'com.gardenticketing.tests.Citizen.BookticketTestcases')
-data.setCell(3, 3, 11712);
+data.setCell(3, 1, 'verifyCitizenLogin')
+data.setCell(3, 2, 'com.rrr_citizen.test.LoginTestclass')
+data.setCell(3, 3, 10147);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyCreatorPassPhotographyBookingAndUPIPayment')
-data.setCell(4, 2, 'com.gardenticketing.tests.Citizen.BookticketTestcases')
-data.setCell(4, 3, 11615);
+data.setCell(4, 1, 'verifyRRRSurveySubmittedSuccesfully')
+data.setCell(4, 2, 'com.rrr_citizen.test.AddSurveyFormTC')
+data.setCell(4, 3, 3191);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verify_lastGarden_is_deleted_successfully')
-data.setCell(5, 2, 'com.gardenticketing.tests.admin.addgardenTC')
-data.setCell(5, 3, 9300);
+data.setCell(5, 1, 'verify_Collection_details_shwoingonthetable')
+data.setCell(5, 2, 'com.rrr_citizen.test.AddSurveyFormTC')
+data.setCell(5, 3, 141);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verify_Update_Garden_Details')
-data.setCell(6, 2, 'com.gardenticketing.tests.admin.addgardenTC')
-data.setCell(6, 3, 8476);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verify_User_deleted_Successfully')
-data.setCell(7, 2, 'com.gardenticketing.tests.admin.UsersTC')
-data.setCell(7, 3, 5103);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyByclickingOnBookingReport')
-data.setCell(8, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(8, 3, 5062);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyTicketDownloadedSuccessfully')
-data.setCell(9, 2, 'com.gardenticketing.tests.Citizen.TicketsPageTC')
-data.setCell(9, 3, 3619);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyOpenProfile')
-data.setCell(10, 2, 'com.gardenticketing.tests.admin.ScannerTC')
-data.setCell(10, 3, 3424);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyCameraOFFButton')
-data.setCell(11, 2, 'com.gardenticketing.tests.admin.ScannerTC')
-data.setCell(11, 3, 3424);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyScannerButtonClickable')
-data.setCell(12, 2, 'com.gardenticketing.tests.admin.ScannerTC')
-data.setCell(12, 3, 2148);
-data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyProfileBackNavigation')
-data.setCell(13, 2, 'com.gardenticketing.tests.admin.ScannerTC')
-data.setCell(13, 3, 2087);
-data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyCameraONButton')
-data.setCell(14, 2, 'com.gardenticketing.tests.admin.ScannerTC')
-data.setCell(14, 3, 2053);
-data.setCell(15, 0, 15)
-data.setCell(15, 1, 'Check_By_Selecting_pagination_fromDropdown')
-data.setCell(15, 2, 'com.gardenticketing.tests.admin.UsersTC')
-data.setCell(15, 3, 474);
-data.setCell(16, 0, 16)
-data.setCell(16, 1, 'verifyTotalCollectionCard')
-data.setCell(16, 2, 'com.gardenticketing.tests.admin.DashboardTest')
-data.setCell(16, 3, 379);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifyTotalUsersCard')
-data.setCell(17, 2, 'com.gardenticketing.tests.admin.DashboardTest')
-data.setCell(17, 3, 334);
-data.setCell(18, 0, 18)
-data.setCell(18, 1, 'verifyTotalGardensCard')
-data.setCell(18, 2, 'com.gardenticketing.tests.admin.DashboardTest')
-data.setCell(18, 3, 285);
-data.setCell(19, 0, 19)
-data.setCell(19, 1, 'verifyTotalTicketsCard')
-data.setCell(19, 2, 'com.gardenticketing.tests.admin.DashboardTest')
-data.setCell(19, 3, 207);
-data.setCell(20, 0, 20)
-data.setCell(20, 1, 'Verifythe_all_Creatorpass_tickets_showing_Dashboard')
-data.setCell(20, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(20, 3, 150);
-data.setCell(21, 0, 21)
-data.setCell(21, 1, 'Verifythe_all_Genralpass_tickets_showing')
-data.setCell(21, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(21, 3, 143);
-data.setCell(22, 0, 22)
-data.setCell(22, 1, 'Verify_the_all_Event_pass_tickets_showing_Dashboard')
-data.setCell(22, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(22, 3, 139);
-data.setCell(23, 0, 23)
-data.setCell(23, 1, 'Check_by_Selecting_ToDate')
-data.setCell(23, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(23, 3, 122);
-data.setCell(24, 0, 24)
-data.setCell(24, 1, 'verify_the_Usercan_View_Ticket_succesfully_And_Cancel_ticket_icon')
-data.setCell(24, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(24, 3, 114);
-data.setCell(25, 0, 25)
-data.setCell(25, 1, 'verifyPieGraph')
-data.setCell(25, 2, 'com.gardenticketing.tests.admin.DashboardTest')
-data.setCell(25, 3, 108);
-data.setCell(26, 0, 26)
-data.setCell(26, 1, 'verifyTermAndConditionPage')
-data.setCell(26, 2, 'com.gardenticketing.tests.Citizen.TermAndConditionpageTC')
-data.setCell(26, 3, 98);
-data.setCell(27, 0, 27)
-data.setCell(27, 1, 'Check_by_Selecting_FromDate')
-data.setCell(27, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(27, 3, 97);
-data.setCell(28, 0, 28)
-data.setCell(28, 1, 'verify_filterdata_reseted_afterClickedOn_Reset')
-data.setCell(28, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(28, 3, 48);
-data.setCell(29, 0, 29)
-data.setCell(29, 1, 'verify_the_garden_ticketExported_succesfully_ByclickonExportfunctionaity')
-data.setCell(29, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(29, 3, 47);
-data.setCell(30, 0, 30)
-data.setCell(30, 1, 'verify_datewise_datashowingOn_table')
-data.setCell(30, 2, 'com.gardenticketing.tests.admin.BookingReportTC')
-data.setCell(30, 3, 46);
-data.setCell(31, 0, 31)
-data.setCell(31, 1, 'verifyUserCanLoginWithValidOTP')
-data.setCell(31, 2, 'com.gardenticketing.tests.admin.LoginPageTC')
-data.setCell(31, 3, 21);
-window.suiteTableData['GardenTicketingSuite']= { tableData: data, tableDiv: 'times-div-GardenTicketingSuite'}
+data.setCell(6, 1, 'verify_Submitted_SurveyForm_DisplayedSuccesfully')
+data.setCell(6, 2, 'com.rrr_citizen.test.AddSurveyFormTC')
+data.setCell(6, 3, 39);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
-              <div id="times-div-GardenTicketingSuite">
-              </div> <!-- times-div-GardenTicketingSuite -->
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-GardenTicketingSuite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for GardenTicketingSuite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-GardenTicketingSuite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">16 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gardenticketing.tests.admin.UsersTC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">setUpSuite</span>
-                <br/>
-                <span class="ignored-method-name">tearDownSuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gardenticketing.tests.Citizen.TermAndConditionpageTC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDownSuite</span>
-                <br/>
-                <span class="ignored-method-name">citizenLogin</span>
-                <br/>
-                <span class="ignored-method-name">setUpSuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gardenticketing.tests.admin.BookingReportTC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDownSuite</span>
-                <br/>
-                <span class="ignored-method-name">setUpSuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gardenticketing.tests.admin.addgardenTC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDownSuite</span>
-                <br/>
-                <span class="ignored-method-name">setUpSuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gardenticketing.tests.admin.ScannerTC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDownSuite</span>
-                <br/>
-                <span class="ignored-method-name">setUpSuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gardenticketing.tests.admin.DashboardTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDownSuite</span>
-                <br/>
-                <span class="ignored-method-name">setUpSuite</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.gardenticketing.tests.Citizen.TicketsPageTC</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">setUpSuite</span>
-                <br/>
-                <span class="ignored-method-name">tearDownSuite</span>
-                <br/>
-                <span class="ignored-method-name">citizenLogin</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-GardenTicketingSuite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.Citizen.BookticketTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">setUpSuite</span>
+              <div class="chronological-class-name">com.rrr_citizen.test.LoginTestclass</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(citizen, chrome)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-suite before">
-                <span class="method-name">citizenLogin</span>
-                <span class="method-start">1722 ms</span>
-              </div> <!-- configuration-suite before -->
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCitizenLogin</span>
+                <span class="method-start">2185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12346 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.admin.LoginPageTC</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.rrr_citizen.test.AddSurveyFormTC</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">loginToAdmin</span>
-                <span class="method-start">13134 ms</span>
+                <span class="method-name">setUp(citizen, chrome)</span>
+                <span class="method-start">12555 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyUserCanLoginWithValidOTP</span>
-                <span class="method-start">14458 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.admin.DashboardTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">loginToAdmin</span>
-                <span class="method-start">14488 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpPage</span>
-                <span class="method-start">15542 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyTotalGardensCard</span>
-                <span class="method-start">15547 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyTotalTicketsCard</span>
-                <span class="method-start">15834 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyTotalCollectionCard</span>
-                <span class="method-start">16042 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyTotalUsersCard</span>
-                <span class="method-start">16422 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyPieGraph</span>
-                <span class="method-start">16757 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.admin.addgardenTC</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">loginToAdmin</span>
-                <span class="method-start">16867 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verify_theNew_garden_added_Successfully</span>
-                <span class="method-start">17856 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verify_Update_Garden_Details</span>
-                <span class="method-start">49919 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verify_lastGarden_is_deleted_successfully</span>
-                <span class="method-start">58398 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.admin.BookingReportTC</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">loginToAdmin</span>
-                <span class="method-start">67700 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">setuppage</span>
-                <span class="method-start">68471 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyByclickingOnBookingReport</span>
-                <span class="method-start">68487 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">73550 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Verifythe_all_Genralpass_tickets_showing</span>
-                <span class="method-start">75564 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">75707 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Verifythe_all_Creatorpass_tickets_showing_Dashboard</span>
-                <span class="method-start">77721 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">77873 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Verify_the_all_Event_pass_tickets_showing_Dashboard</span>
-                <span class="method-start">79878 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">80019 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Check_by_Selecting_FromDate</span>
-                <span class="method-start">82023 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">82124 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Check_by_Selecting_ToDate</span>
-                <span class="method-start">84127 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">84249 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">verify_datewise_datashowingOn_table</span>
-                <span class="method-start">86261 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">86308 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">verify_filterdata_reseted_afterClickedOn_Reset</span>
-                <span class="method-start">88312 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">88361 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">verify_the_Usercan_View_Ticket_succesfully_And_Cancel_ticket_icon</span>
-                <span class="method-start">90362 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">90476 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">verify_the_garden_ticketExported_succesfully_ByclickonExportfunctionaity</span>
-                <span class="method-start">92486 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">slowDown</span>
-                <span class="method-start">92533 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.admin.ScannerTC</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">loginToAdmin</span>
-                <span class="method-start">94550 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpPages</span>
-                <span class="method-start">95372 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyScannerButtonClickable</span>
-                <span class="method-start">95383 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyCameraOFFButton</span>
-                <span class="method-start">97532 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyCameraONButton</span>
-                <span class="method-start">100957 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyOpenProfile</span>
-                <span class="method-start">103011 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyProfileBackNavigation</span>
-                <span class="method-start">106437 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.admin.UsersTC</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">loginToAdmin</span>
-                <span class="method-start">108526 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">setuppage</span>
-                <span class="method-start">109464 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">Verified_New_user_addedSuccesfully</span>
-                <span class="method-start">109477 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Check_By_Selecting_pagination_fromDropdown</span>
-                <span class="method-start">124237 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verify_User_deleted_Successfully</span>
-                <span class="method-start">124712 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.Citizen.BookticketTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">129847 ms</span>
+                <span class="method-name">waitBeforeTest</span>
+                <span class="method-start">13878 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyGenralTicketBookingAndUPIPayment</span>
-                <span class="method-start">131905 ms</span>
+                <span class="method-name">verifyRRRSurveySubmittedSuccesfully</span>
+                <span class="method-start">15882 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">144083 ms</span>
+                <span class="method-name">waitBeforeTest</span>
+                <span class="method-start">19078 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyCreatorPassPhotographyBookingAndUPIPayment</span>
-                <span class="method-start">146137 ms</span>
+                <span class="method-name">verify_Submitted_SurveyForm_DisplayedSuccesfully</span>
+                <span class="method-start">21088 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">157754 ms</span>
+                <span class="method-name">waitBeforeTest</span>
+                <span class="method-start">21128 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyCreatorPassVideographyBookingAndUPIPayment</span>
-                <span class="method-start">159800 ms</span>
+                <span class="method-name">verify_Collection_FilterApplied_Succesfully</span>
+                <span class="method-start">23135 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.Citizen.TicketsPageTC</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">171516 ms</span>
+                <span class="method-name">waitBeforeTest</span>
+                <span class="method-start">41541 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyTicketDownloadedSuccessfully</span>
-                <span class="method-start">173554 ms</span>
+                <span class="method-name">verify_Collection_details_shwoingonthetable</span>
+                <span class="method-start">43544 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43687 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.Citizen.TermAndConditionpageTC</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.rrr_citizen.test.CollectionHistoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(citizen, chrome)</span>
+                <span class="method-start">43871 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">verifyTermAndConditionPage</span>
-                <span class="method-start">177174 ms</span>
+                <span class="method-name">testFilterFromToToday</span>
+                <span class="method-start">48267 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.gardenticketing.tests.Citizen.BookticketTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">tearDownSuite</span>
-                <span class="method-start">177278 ms</span>
-              </div> <!-- configuration-suite after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFilterFromTodayOnly</span>
+                <span class="method-start">66521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112687 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

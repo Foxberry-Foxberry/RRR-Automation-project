@@ -3,14 +3,20 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.gardenticketing.tests.admin.UsersTC">
+      <class name="com.rrr_citizen.test.CollectionHistoryTest">
         <methods>
-          <include name="loginToAdminOnce"/>
-          <include name="setUpSuite"/>
-          <include name="setuppage"/>
-          <include name="addNewUserTest"/>
+          <include name="testFilterFromTodayOnly"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.gardenticketing.tests.admin.UsersTC -->
+      </class> <!-- com.rrr_citizen.test.CollectionHistoryTest -->
+      <class name="com.rrr_citizen.test.LoginTestclass">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyCitizenLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rrr_citizen.test.LoginTestclass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
