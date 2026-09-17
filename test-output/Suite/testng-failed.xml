@@ -10,13 +10,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.rrr_citizen.test.CollectionHistoryTest -->
-      <class name="com.rrr_citizen.test.LoginTestclass">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyCitizenLogin"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.rrr_citizen.test.LoginTestclass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

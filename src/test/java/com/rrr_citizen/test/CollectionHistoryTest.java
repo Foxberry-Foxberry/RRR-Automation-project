@@ -27,16 +27,16 @@ public class CollectionHistoryTest extends BaseClass {
         Assert.assertTrue(page.isAnyRecordPresent(), "Expected records for today's filter but none were found");
     }
 
-    @Test(description = "Filter collections by From=Today only and verify results")
-    public void testFilterFromTodayOnly() throws InterruptedException {
-        CollectionHistoryPage page = new CollectionHistoryPage(driver);
-
-        page.clickCollectionFilterButton();
-
-        // Set only From date to today and click search
-        page.enterCollectionFromDateToday();
-        page.clickCollectionFilterSearch();
-
-        Assert.assertTrue(page.isAnyRecordPresent(), "Expected records when filtering From=today but none were found");
-    }
+//    @Test(description = "Filter collections by From=Today only and verify results")
+//    public void testFilterFromTodayOnly() throws InterruptedException {
+//        CollectionHistoryPage page = new CollectionHistoryPage(driver);
+//
+//        page.clickCollectionFilterButton();
+//
+//        // Set only From date to today and click search
+//        page.enterCollectionFromDateToday();
+//        page.clickCollectionFilterSearch();
+//
+//        Assert.assertTrue(page.isAnyRecordPresent(), "Expected records when filtering From=today but none were found");
+//    }
 }

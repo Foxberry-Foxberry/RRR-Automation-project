@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rrr_citizen.test.AddSurveyFormTC">
+      <class name="com.rrr_citizen.test.CollectionHistoryTest">
         <methods>
-          <include name="verify_Collection_FilterApplied_Succesfully"/>
-          <include name="waitBeforeTest"/>
+          <include name="testFilterFromTodayOnly"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.rrr_citizen.test.AddSurveyFormTC -->
+      </class> <!-- com.rrr_citizen.test.CollectionHistoryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
